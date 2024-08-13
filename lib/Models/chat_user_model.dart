@@ -43,6 +43,7 @@ class ChatUserModel {
     data['is_online'] = isOnline;
     data['push_token'] = pushToken;
     data['email'] = email;
+
     return data;
   }
 }
